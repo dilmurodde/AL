@@ -9,8 +9,8 @@ from aiogram.types import Message
 # ==========================================
 # SOZLAMALAR
 # ==========================================
-TOKEN = "8670543048:AAFw3ZgKX99s0XjFtRF03hWY7LfdTbu6E9A"
-GEMINI_API_KEY = "AIzaSyBp9lxZNDKZFf6VcuTR_BnF7u56hwFxNCc"
+TOKEN = ("8670543048:AAFw3ZgKX99s0XjFtRF03hWY7LfdTbu6E9A")
+GEMINI_API_KEY = ("AIzaSyAi1I5ls50_M-BZGBxcPAqMDB76erjl9-Q")
 
 # Logging
 logging.basicConfig(level=logging.INFO)
