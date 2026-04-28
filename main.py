@@ -18,7 +18,12 @@ genai.configure(api_key=GEMINI_API_KEY)
 # DIQQAT: Bu yerda model nomini 'gemini-1.5-flash' ga o'zgartirdik
 # Bu model hozirda eng barqaror va bepul versiya hisoblanadi
 model = genai.GenerativeModel('gemini-1.5-flash')
-
+import google.generativeai as genai
+genai.configure(api_key="AIzaSyBp9lxZNDKZFf6VcuTR_BnF7u56hwFxNCc")
+for m in genai.list_models():
+    if 'generateContent' in m.supported_methods:
+        print(m.name)
+        
 # Logging
 logging.basicConfig(level=logging.INFO)
 
